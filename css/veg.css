@@ -1,0 +1,193 @@
+body{
+    overflow-x: hidden;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    
+    display: inline;
+    padding: 2rem;
+}
+.contact{
+    margin-left: 10rem;
+   
+}
+.list_food{
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+}
+.my_sec{
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../imagesveg/4.jpg');
+}
+.my_sec1{
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../imagesveg/5.jpg');
+}
+.my_sec2{
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../imagesveg/6.jpg');
+
+}
+.my_sec3{
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../imagesveg/9.jpg');
+
+}
+
+.banner-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.shop_button{
+    background-color: lightgreen;
+}
+.dis_text{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-weight: 600;
+}
+.dis{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-weight: 600;
+    background-color: tomato;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.hr_class{
+    width: 5%;
+    margin-left: 48%;
+    border-top: 5px solid red;
+}
+.six_row{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: rgba(18, 12, 12, 0.868);
+}
+.cont_icon{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    display: inline;
+    color: white;
+}
+a:hover{
+    color: red !important;
+}
+/* register code */
+.Reg_button{
+    margin-left: 40%;  
+}
+
+/* login code */
+ .box{
+    height: 370px;
+    width: 70%;
+    border-radius: 1rem;
+    transition: transform .8s;
+}
+
+.box h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.all_form{
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+.all_form a{
+    border: .1rem solid green;
+    width: 5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: .3rem;
+}
+.all_form a:hover{
+    background-color: green;
+    text-transform:uppercase;
+}
+.box input{
+    text-align: center;
+    border-radius: 1rem;
+    transition: transform .8s;
+}
+
+.box select{
+    text-align: center;
+    border-radius: 1rem;
+    transition: transform .8s;
+}
+
+.box:hover{
+    border-radius: 3rem;
+    background-image: linear-gradient(to left,rgb(249, 237, 237),rgb(173, 190, 173));
+    transform: scale(1.1);    
+}
+.box input:focus{
+    width:250px;
+    transform: scale(1.1);
+} 
+
+.box select:focus{
+    width:250px;
+    transform: scale(1.1);
+}
+/* About code */
+/* .breadcrumb-item{
+    margin-left: 45% !important;
+    font-size: 5rem;
+} */
+.flip_card{
+    width: 250px;
+    height: 250px;
+}
+.flip_card:hover .flip_card_content{
+ transform: rotateY(180deg);
+}
+.flip_card_content{
+width: 250px;
+height: 250px;
+transform-style: preserve-3d;
+transition:transform 0.5s;
+}                         
+
+.flip_card_front,
+.flip_card_back{
+    position:absolute;
+    width: 250px;
+    height: 250px;
+}
+.flip_card_front{   
+    background: red;
+   
+   
+}
+.flip_card_back{
+    background:aqua;
+    transform: rotateY(180deg);
+    
+}
